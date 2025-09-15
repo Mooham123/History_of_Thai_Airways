@@ -5,7 +5,7 @@
 }
 
 .navbar{
-    background-color: purple;
+    background-color: #613177;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -37,21 +37,27 @@
 }
 
 .image_3 { 
-    display: flex;
-    align-items: center; 
-    justify-content: center;
+    float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 
 .image_4 { 
-    display: flex;
-    align-items: center; 
-    justify-content: center;
+    float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 
 .image_5 { 
-    display: flex;
-    align-items: center; 
-    justify-content: center;
+    float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .image_6 { 
@@ -68,16 +74,21 @@
 
 
 .text_1 {
-    font-size: larger;
+    font-size: xx-large;
     font-style: normal;
 }
 
 .text_2 {
-    font-size: larger;
+    font-size: xx-large;
     font-style: normal;
 }
 
 .text_3 {
-    font-size: larger;
+    font-size: xx-large;
+    font-style: normal;
+}
+
+.text_4 {
+    font-size: xx-large;
     font-style: normal;
 }
